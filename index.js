@@ -48,15 +48,22 @@ inquirer.prompt([
         type: "input",
         message: "What does the user need to konw about contributing to the repo?",
         name: "contributing"
+    },
+    {
+        type: "input",
+        message: "Please list any contributors to the project",
+        name: "credits"
     }
 ])
 
-    .then(function (answers) {
-        console.log(answers);
+    .then(function (data) {
+        console.log(data);
 
-        // const generatedFile = generateMarkdown(answers)
+        const generatedFile = generateMarkdown(data)
+        console.log(generatedFile);
     })
-// fs.writeFile('generateMarkdown', generatedFile, function (err) {
-//     if (err) throw err;
-//     console.log("Success!");
-// });
+
+fs.writeFile('generateMarkdown', generatedFile, function (err) {
+    if (err) throw err;
+    console.log("Success!");
+});
