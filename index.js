@@ -41,23 +41,22 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "Enter Usage",
+        message: "What does the user need to konw about using the repo?",
         name: "usage"
     },
     {
         type: "input",
-        message: "Enter Contributing",
+        message: "What does the user need to konw about contributing to the repo?",
         name: "contributing"
-    },
-    {
-        type: "input",
-        message: "Enter Questions",
-        name: "questions"
-    },
+    }
 ])
 
     .then(function (answers) {
-        // console.log(answers);
+        console.log(answers);
 
-        const generatedFile = generateMarkdown(answers)
+        // const generatedFile = generateMarkdown(answers)
     })
+// fs.writeFile('generateMarkdown', generatedFile, function (err) {
+//     if (err) throw err;
+//     console.log("Success!");
+// });
