@@ -1,12 +1,12 @@
 
-  # Test for Project Title
+  # Test Title
 
   ![javascript badge](https://img.shields.io/badge/javascript-100%25-blue)
   ![MIT](https://img.shields.io/npm/l/inquirer) 
 
   ## Description
 
-  Brief description of the project
+  A brief description of the project, how it functions, etc.
 
   ## Table of Contents
 
@@ -16,17 +16,16 @@
   * [License](#license)
 
   ## Installation
-  undefined
+  npm i
 
   ## Usage
-  User can do pull requests
+  User can clone this repo and use it to generate a markdown file.
 
   ## Credits
   Bridget Shannon
 
   ## License
   MIT
-  [MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributions
-  User can do pull requests
+  User can make pull requests to contribute.

@@ -25,8 +25,8 @@ inquirer.prompt([
         name: "description"
     },
     {
-        type: "input",
-        message: "What kind of license should your project have?",
+        type: "list",
+        choices: ["MIT", "GPL", "Apache 3.0", "Apache 2.0", "BSD"],
         name: "license",
         default: "MIT"
     },

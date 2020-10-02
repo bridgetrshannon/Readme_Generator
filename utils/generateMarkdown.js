@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## License
-  ${data.license}(https://choosealicense.com/licenses/mit/)
+  ${data.license}
 
   ## Contributions
   ${data.contributing}
