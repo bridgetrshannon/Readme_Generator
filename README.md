@@ -11,3 +11,4 @@
   ![questions answered](./questionsanswered.png)
 ### Gif Demonstrations
 ![questions answered gif](./commandline.gif) 
+![generated readme gif](./readmegenerateddemo.gif) 
