@@ -9,13 +9,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Installation](#install)
+  * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
 
   ## Installation
-  ${data.install}
+  ${data.installation}
 
   ## Usage
   ${data.usage}

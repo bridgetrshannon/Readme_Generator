@@ -63,7 +63,9 @@ inquirer.prompt([
         console.log(generatedFile);
     })
 
-fs.writeFile('generateMarkdown', generatedFile, function (err) {
+// need help with this 
+fs.writeFile('generateMarkdown.md', generatedFile, function (err) {
     if (err) throw err;
     console.log("Success!");
 });
+
