@@ -4,6 +4,7 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![MIT](https://img.shields.io/npm/l/inquirer) 
 
   ## Description
 

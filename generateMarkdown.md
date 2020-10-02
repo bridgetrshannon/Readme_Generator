@@ -1,7 +1,9 @@
 
   # Mood Music
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![javascript badge](https://img.shields.io/badge/javascript-100%25-blue)
+
+![MIT](https://img.shields.io/npm/l/inquirer)
 
   ## Description
 
