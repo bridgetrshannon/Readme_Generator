@@ -3,6 +3,8 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
   ## Description
 
   ${data.description}

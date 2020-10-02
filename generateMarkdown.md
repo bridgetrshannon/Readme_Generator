@@ -1,10 +1,11 @@
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
+
+  # Mood Music
+
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
   ## Description
 
-  ${data.description}
+  Using Spotify API, user will select their mood and a playlist of songs will be generated to match how they're feeling.
 
   ## Table of Contents
 
@@ -14,18 +15,16 @@ function generateMarkdown(data) {
   * [License](#license)
 
   ## Installation
-  ${data.installation}
+  install
 
   ## Usage
-  ${data.usage}
+  commit early and often
 
   ## Credits
-  ${data.credits}
+  Bridget Shannon
 
   ## License
-  ${data.license}
+  MIT
 
   ## Contributions
-  ${data.contributing}
-`;
-}
+  will have to do a pull reques

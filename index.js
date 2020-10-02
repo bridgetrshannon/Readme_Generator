@@ -41,12 +41,12 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "What does the user need to konw about using the repo?",
+        message: "What does the user need to know about using the repo?",
         name: "usage"
     },
     {
         type: "input",
-        message: "What does the user need to konw about contributing to the repo?",
+        message: "What does the user need to know about contributing to the repo?",
         name: "contributing"
     },
     {
@@ -61,14 +61,15 @@ inquirer.prompt([
 
         const generatedFile = generateMarkdown(data)
         console.log(generatedFile);
-        createFile();
+        // take in argument of generatedFile
+        createFile(generatedFile);
     })
 
-function createFile() {
-    // need help with this
-    // when this runs, a markdown file is generated, however it isn't taking in the data from my prompts, i.e. ${data.title} should read Title of Project however it shows ${data.title} on the markdown file instead
-    fs.writeFile('generateMarkdown.md', generateMarkdown, function (err) {
+function createFile(file) {
+    // passed in file as second argument for fs.writeFile
+    fs.writeFile('generateMarkdown.md', file, function (err) {
         if (err) throw err;
+        // passed in generateMarkdown
         console.log(generateMarkdown);
     });
 }
