@@ -61,11 +61,15 @@ inquirer.prompt([
 
         const generatedFile = generateMarkdown(data)
         console.log(generatedFile);
+        createFile();
     })
 
-// need help with this 
-fs.writeFile('generateMarkdown.md', 'generatedFile', function (err) {
-    if (err) throw err;
-    console.log(generateMarkdown(data));
-});
+function createFile() {
+    // need help with this 
+    fs.writeFile('generateMarkdown.md', generateMarkdown, function (err) {
+        if (err) throw err;
+        console.log(generateMarkdown);
+    });
+}
+
 
