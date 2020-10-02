@@ -65,7 +65,8 @@ inquirer.prompt([
     })
 
 function createFile() {
-    // need help with this 
+    // need help with this
+    // when this runs, a markdown file is generated, however it isn't taking in the data from my prompts, i.e. ${data.title} should read Title of Project however it shows ${data.title} on the markdown file instead
     fs.writeFile('generateMarkdown.md', generateMarkdown, function (err) {
         if (err) throw err;
         console.log(generateMarkdown);
