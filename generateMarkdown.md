@@ -6,7 +6,7 @@
 
   ## Description
 
-  A brief description of the project, how it functions, etc.
+  Brief description of project, its functionality, and what problem(s) it solves.
 
   ## Table of Contents
 
@@ -19,7 +19,7 @@
   npm i
 
   ## Usage
-  User can clone this repo and use it to generate a markdown file.
+  User can clone this repo.
 
   ## Credits
   Bridget Shannon
@@ -28,4 +28,4 @@
   MIT
 
   ## Contributions
-  User can make pull requests to contribute.
+  User can pull request this repo.

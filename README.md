@@ -9,3 +9,5 @@
   ![terminal questions](./terminalquestions.png)
   - When the user has answered all the questions, a generateMarkdown.md file will be created with their response.
   ![questions answered](./questionsanswered.png)
+### Gif Demonstrations
+![questions answered gif](./commandline.gif) 
