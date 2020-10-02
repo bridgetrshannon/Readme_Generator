@@ -66,6 +66,6 @@ inquirer.prompt([
 // need help with this 
 fs.writeFile('generateMarkdown.md', 'generatedFile', function (err) {
     if (err) throw err;
-    console.log("Success!");
+    console.log(generateMarkdown(data));
 });
 
