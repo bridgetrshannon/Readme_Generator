@@ -27,17 +27,20 @@ inquirer.prompt([
     {
         type: "input",
         message: "What kind of license should your project have?",
-        name: "license"
+        name: "license",
+        default: "MIT"
     },
     {
         type: "input",
         message: "What command should be run to install dependencies?",
-        name: "install"
+        name: "install",
+        default: "npm i"
     },
     {
         type: "input",
         message: "What command should be run to run tests?",
-        name: "tests"
+        name: "tests",
+        default: "npm test"
     },
     {
         type: "input",

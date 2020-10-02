@@ -1,13 +1,12 @@
 
-  # Mood Music
+  # Test for Project Title
 
-![javascript badge](https://img.shields.io/badge/javascript-100%25-blue)
-
-![MIT](https://img.shields.io/npm/l/inquirer)
+  ![javascript badge](https://img.shields.io/badge/javascript-100%25-blue)
+  ![MIT](https://img.shields.io/npm/l/inquirer) 
 
   ## Description
 
-  Using Spotify API, user will select their mood and a playlist of songs will be generated to match how they're feeling.
+  Brief description of the project
 
   ## Table of Contents
 
@@ -17,16 +16,17 @@
   * [License](#license)
 
   ## Installation
-  install
+  undefined
 
   ## Usage
-  commit early and often
+  User can do pull requests
 
   ## Credits
   Bridget Shannon
 
   ## License
   MIT
+  [MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributions
-  will have to do a pull reques
+  User can do pull requests

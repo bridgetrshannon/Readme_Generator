@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![javascript badge](https://img.shields.io/badge/javascript-100%25-blue)
   ![MIT](https://img.shields.io/npm/l/inquirer) 
 
   ## Description
@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   * [License](#license)
 
   ## Installation
-  ${data.installation}
+  ${data.install}
 
   ## Usage
   ${data.usage}
@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## License
-  ${data.license}
+  ${data.license}(https://choosealicense.com/licenses/mit/)
 
   ## Contributions
   ${data.contributing}
